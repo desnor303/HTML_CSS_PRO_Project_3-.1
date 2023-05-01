@@ -255,3 +255,24 @@ a {
 .hero__link:hover {
     color: #152427;
 }
+/*  === === ========== customer ========== === ===  */
+.customer {
+    margin-top: 130px;
+}
+
+.customer__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 76px 121px;
+    height: 201px;
+    background: #e2eddf;
+    border-radius: 100.5px;
+}
+
+.customer__image-icon {
+    color: var(--primary-color);
+}
+.customer__link:nth-child(1) .customer__image-icon {
+    width: 112px;
+}
