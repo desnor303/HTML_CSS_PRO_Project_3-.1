@@ -394,3 +394,242 @@ a {
     line-height: 1.71;
     color: #7d8188;
 }
+
+/*  === === ========== About ========== === ===  */
+.about {
+    margin-top: 149px;
+}
+
+.about__container {
+    position: relative;
+    display: flex;
+    gap: 64px;
+}
+
+.about__decor {
+    position: absolute;
+    top: 10px;
+    left: 48px;
+    transform: rotate(12.64deg);
+}
+/* -- about__thumb -- */
+
+.about__thumb {
+    position: relative;
+    width: 51.85%;
+    height: 570px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 21px;
+}
+.about__img {
+    display: block;
+    object-fit: cover;
+    width: 284px;
+    height: 480px;
+    box-shadow: 0px 4px 234px 11px rgba(59, 137, 71, 0.25);
+    border-radius: 210px;
+    border: 1px solid #ffffff;
+}
+
+.about__img + .about__img {
+    align-self: flex-start;
+    margin-top: 13px;
+}
+
+/* -- about__panel -- */
+
+.about__panel {
+    width: 144px;
+    height: 144px;
+    padding: 19px 17px 11px;
+    background: #ffffff;
+    box-shadow: 0px 7px 54px rgba(154, 154, 154, 0.25);
+    border-radius: 8px;
+    position: absolute;
+    right: -9px;
+    bottom: 8px;
+}
+
+.panel__content {
+    margin-left: 4px;
+}
+
+.panel__title {
+    font-family: "Public Sans";
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: #152427;
+}
+
+.panel__desc {
+    margin-top: 6px;
+    font-family: "Public Sans";
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.4;
+    color: #575d5e;
+    opacity: 0.4;
+}
+
+.panel__stats {
+    margin-top: 10px;
+    font-family: "Public Sans";
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.4;
+    color: #152427;
+}
+
+.panel__process {
+    margin-top: 3px;
+}
+
+.panel__process--max {
+    width: 100%;
+    height: 2px;
+    background: #eaeaea;
+    border-radius: 10px;
+}
+
+.panel__process--now {
+    width: 40%;
+    height: 2px;
+    background: #83a17d;
+    border-radius: 10px;
+}
+
+.panel__load {
+    display: block;
+    text-align: right;
+    margin-top: 4px;
+    font-family: "Public Sans";
+    font-weight: 500;
+    font-size: 1rem;
+    color: #152427;
+}
+
+.panel__status {
+    margin-top: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 11px;
+    height: 11px;
+    border-radius: 11px;
+    background: #eaeaea;
+}
+.panel__status--live {
+    width: 5px;
+    height: 5px;
+    border-radius: 11px;
+    background: var(--primary-color);
+}
+
+.panel__row {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.panel__row .panel__stats {
+    margin-top: 0;
+}
+.panel__member {
+    display: flex;
+    align-items: center;
+}
+
+.panel__avatar {
+    object-fit: cover;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+}
+
+.panel__avatar + .panel__avatar {
+    margin-left: -6px;
+}
+/* -- about__detail -- */
+.about__detail {
+    flex-grow: 1;
+}
+
+.about__span {
+    position: relative;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.12;
+    color: #152427;
+}
+
+.about__span::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -46px;
+    background: #152427;
+    width: 25px;
+    height: 1px;
+}
+
+.about__title {
+    margin-top: 20px;
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 4.2rem;
+    line-height: 1.24;
+    color: #152427;
+}
+
+.about__desc {
+    margin-top: 11px;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.62;
+    color: #7d8188;
+}
+
+.about__list {
+    margin-top: 36px;
+}
+
+.about__list + .about__list {
+    margin-top: 58px;
+}
+.about__item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.about__item::after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    width: 100%;
+    height: 1px;
+    background: #83a17d;
+}
+.about__item-span {
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 4.2rem;
+    line-height: 1.24;
+    color: #152427;
+}
+
+.about__sub-desc {
+    width: 364px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.71;
+    color: #7d8188;
+}
