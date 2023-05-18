@@ -1089,3 +1089,127 @@ a {
     color: #575d5e;
     text-align: right;
 }
+
+/* footer  */
+.footer {
+    margin-top: 102px;
+    position: relative;
+    padding: 72px 0px 50px;
+    background: var(--primary-color);
+}
+
+.footer::after {
+    content: "";
+}
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer__title {
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 3.2rem;
+    color: #ffffff;
+}
+
+.footer__form {
+    position: relative;
+    margin-top: 25px;
+    background: var(--primary-color);
+}
+
+.footer__form input {
+    background: var(--primary-color);
+    border: none;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.2rem;
+    color: #6a8383;
+}
+/* .footer__form::before {
+    position: absolute;
+    bottom: -36px;
+    left: 0px;
+    content: "";
+    width: 354px;
+    height: 1px;
+    background: #6a8383;
+} */
+.footer__form::after {
+    position: absolute;
+    bottom: -36px;
+    left: 0px;
+    content: "";
+    width: 354px;
+    height: 1px;
+    background: #6a8383;
+}
+
+.footer__social {
+    margin-top: 84px;
+    display: flex;
+    gap: 22px;
+}
+
+.footer__social--link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    border: 1px solid #265252;
+}
+
+.footer__social--link:hover {
+    background: #a75325;
+}
+
+.footer__link {
+    display: flex;
+    margin-top: 22px;
+    gap: 51px;
+}
+
+.footer__item--title {
+    font-family: "Public Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8rem;
+    color: #ffffff;
+}
+
+.footer__item--link {
+    margin-top: 24px;
+    font-family: "Public Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: #6a8383;
+}
+
+.footer__line {
+    margin: 45px auto 0px;
+    width: 1140px;
+    height: 1px;
+    background: linear-gradient(
+        90deg,
+        #143c3c 2.28%,
+        #295a5a 55.65%,
+        rgba(38, 82, 82, 0) 102.06%
+    );
+}
+
+.footer__cpr {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    font-family: "Public Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: #6a8383;
+}
